@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Tejas Podutwar</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
     <header>
@@ -27,6 +29,10 @@
         <div id="about-container" class="sub-container">
             <h3 class="sub-container-heading">ABOUT ME</h3>
             <div id="aboutme-info">
+                <div>
+                    <img id="profile-photo" src="../images/profile-pic.jpg">
+                    <h3 id="my-name">TEJAS PODUTWAR</h3>
+                </div>
                 <p> I'm a Python Developer and currently exploring the field of Web-Development.
                     I am currently building up my DSA skills and I'm an active participant in various coding competitions on CODECHEF and HACKERRANK.
                     I'm passionate about my work. I have experience in Google Cloud. 
@@ -46,7 +52,7 @@
                     <p>CSS</p>
                 </div>
                 <div class="skills-item">
-                    <p>JAVASCRIPT</p>
+                    <p>JS</p>
                 </div>
                 <div class="skills-item">
                     <p>PYTHON</p>
@@ -64,7 +70,7 @@
                     <p>WEB-SCRAPING</p>
                 </div>
                 <div class="skills-item">
-                    <p>WEB-CRAWLING</p>
+                    <p>GCP</p>
                 </div>
             </div>
         </div>
@@ -72,8 +78,29 @@
         <!-- PROJECTS -->
         <div id="project-container" class="sub-container">
             <h3 class="sub-container-heading">PROJECTS</h3>
-            <div class="info">
-                                    
+            <div class="project-content">
+                <div id="project1">
+                    <h3 id="project-title">NUMBER SYSTEM CONVERSION CALCULATOR</h3><hr>
+                    <div class="project-info">
+                        <p>Using this application a user can fill his own shopping cart with his
+                            favorite items from Amazon, Flipkart and Snapdeal.
+                            Built with python libraries PYQT5, SQLITE3, Beautiful Soup for scraping the data.</p>
+                    </div>
+                </div>
+                <div id="project2">
+                    <h3 id="project-title">UNIVERSAL SHOPPING CART APPLICATION</h3><hr>
+                    <div class="project-info">
+                        <p>This project is about building a Wifi & Voice Controlled Home Automation using NodeMCU & Android. 
+                            This model basically works and functions like the Alexa.</p>
+                    </div>
+                </div>
+                <div id="project3">
+                    <h3 id="project-title">VOICE CONTROLLED HOME AUTOMATION</h3><hr>
+                    <div class="project-info">
+                        <p>This  a basic GUI application. This calculator helps in converting the numbers from decimal to
+                            binary, hexadecimal and octal.</p>
+                    </div>
+                </div>                                    
             </div>
         </div>
         <!-- CERTIFICATIONS -->
@@ -81,10 +108,8 @@
             <h3 class="sub-container-heading">CERTIFICATIONS</h3>
             <div class="info">
                 <div id="python-certifications">
-                    <h3>PYTHON</h3>
+                    <h3><i class="fab fa-python" style='font-size:32px;color:#d3c29b; padding:5px'></i>PYTHON</h3>
                     <div class="images-container">
-                        <img src="../images/PythonBasics.png">
-                        <img src="../images/PythonFunctions.png">
                         <img src="../images/Inheritance.png">
                         <img src="../images/DataCollection.png">
                     </div>
@@ -92,8 +117,6 @@
                 <div id="web-certifications">
                     <h3 style="margin:10px;">WEB-DEV</h3>
                     <div class="images-container">
-                        <img src="../images/HTMLcertificate.png">
-                        <img src="../images/CSS3Certificate.png">
                         <img src="../images/JScertificate.png">
                         <img src="../images/Responsive web design.png">
                     </div>
@@ -112,8 +135,17 @@
             </div>
         </div>
     </main>
-    <footer>
-
+    <footer id="footer">
+        <div class="footer-content">
+            <h2 id="footer-title">CONTACT</h2>
+            <ul class="contact-links">
+                <li><a href="#"><i class="fa fa-envelope"></i>tejaskumar8501@gmail.com</a></li>
+                <li><a href="#"><i class="fa fa-phone">+221-3010-8594</i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

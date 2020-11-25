@@ -39,7 +39,7 @@ nav{
 
 .nav-links a:hover{
     background-color: rgb(240, 240, 240);
-    color: rgba(0, 0, 0, 0.781);
+    color: rgb(9,9,9);
     padding: 5px;
     border-radius: 10px 4px 10px 4px;
 }
@@ -70,6 +70,18 @@ nav{
     width:60vw;
 }
 
+#profile-photo{
+    border-radius: 50%;
+    height: 16vh;
+    width: 8vw;
+    border: 2px solid #fff;
+    display: inline-block;
+}
+
+#my-name{
+    display: inline-block;
+    color: #ffda79c2;
+}
 
 /*Skills*/
 #skills-container{
@@ -109,6 +121,41 @@ nav{
         grid-gap: 2.5em;
     }
 }
+
+/*Projects*/
+
+#project-container{
+    padding-bottom: 1em;
+}
+
+.project-content{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 1em;
+    
+}
+
+#project1, #project2, #project3{
+    min-height: 60vh;
+    width: 20vw;
+    border: 2px solid #d3c29b;
+    padding: 3px;
+    text-align: center;
+
+}
+
+#project-title{
+    line-height: 1.2em;
+    color: #f6e58db3;
+    font-family: monospace;
+    padding: 5px;
+}
+
+.project-info{
+    text-align: justify;
+    padding: 5px;
+}
+
 
 /*Certifications*/
 
@@ -167,8 +214,28 @@ nav{
     border:2px solid #d3c29b;
 }
 
+
+/*Footer section*/
+
 footer{
-    background-color: thistle;
-    height: 30vh;
+    background-color: #2c3e50;
+    min-height: 10vh;
+    padding: 4px;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-links i{
+    font-size: 16px;
+    color: #faebd799;
+    padding: 5px;
+}
+
+.contact-links a{
+    font-size: 16px;
+    color: #faebd799;
 }
 
