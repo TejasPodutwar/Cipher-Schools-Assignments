@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App{
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.wrapper{
+  height: 300px;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.wrapper > div > button{
+  height: 75px;
+  width: 100px;
+  display: inline-block;
+  font-size: xx-large;
+  border: 1px solid black;
+}
+
+.displayState{
+    height: 225px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: black; 
+}
+
+.buttonContainer{
+    height: 75px;
+    width: 300px;
+}
+
+
+
+#increment{
+  background-color: turquoise; 
+}
+
+#reset{
+  background-color: aliceblue;
+}
+
+#decrement{
+  background-color: skyblue;
+}
